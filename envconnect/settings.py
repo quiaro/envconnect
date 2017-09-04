@@ -202,13 +202,13 @@ LOGGING = {
             'level': 'INFO',
             'propagate': False
         },
-        'django.db.backends': {
-           'handlers': ['db_logfile'],
-           'level': 'DEBUG',
-           'propagate': False
-        },
+#        'django.db.backends': {
+#           'handlers': ['db_logfile'],
+#           'level': 'DEBUG',
+#           'propagate': False
+#        },
         'envconnect': {
-            'handlers': ['db_logfile'],
+            'handlers': ['logfile'],
             'level': 'DEBUG',
         },
         'django.request': {
