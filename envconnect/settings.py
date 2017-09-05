@@ -208,8 +208,8 @@ LOGGING = {
 #           'propagate': False
 #        },
         'envconnect': {
-            'handlers': ['logfile'],
-            'level': 'DEBUG',
+            'handlers': [],
+            'level': 'INFO',
         },
         'django.request': {
             'handlers': [],
