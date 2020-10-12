@@ -74,7 +74,7 @@ export function makeServer({ environment = 'development', apiBasePath }) {
           return null // organization slug (orgId
         },
         campaign() {
-          return 'assessment'
+          return 'best-practices'
         },
         created_at() {
           return faker.date.past().toISOString()
