@@ -6,7 +6,7 @@
           v-if="previousAnswer"
           class="pt-0 pl"
           cols="12"
-          md="isTarget ? 12 : 6"
+          :md="isTarget ? 12 : 6"
         >
           <question-previous-answers
             :model="model"
